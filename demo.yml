@@ -1,8 +1,12 @@
 name: vigen workflow
 on: VIGEN-DISPETCH
 jobs: 
-  vigenanun:
+  print:
     runs-on: ubuntu-latest
     steps:
       -name: Print to console
        run: echo hello vig!
+      -name: Print a few lines
+       run: 
+        echo First line!
+        echo Second line!
